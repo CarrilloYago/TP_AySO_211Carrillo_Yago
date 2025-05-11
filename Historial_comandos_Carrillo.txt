@@ -1,0 +1,229 @@
+ls
+cd clase4/
+ls
+cat archivo1.txt 
+ls
+cat << FIN >archivo2.txt
+linea4
+linea5
+linea6
+FIN
+
+exit
+ls
+cd repogit
+ls
+cd UTN-FRA_SO_onBording/
+ls
+cd..
+cd ..
+ls
+ls -l
+cd carpeta_compartida/
+ls
+cd ..
+cd repogit/
+ls
+cd UTN-FRA_SO_onBording/
+ls
+cd Almacenamiento/
+ls
+cd -l
+cd /
+ls
+cd /carpeta_compartida
+cd/home
+cd /home
+ls
+cd ..
+ls
+ls -l
+cd home
+ls
+cd ubuntu/
+cd vagrant/
+ls
+cd ..
+ls
+cd media/
+ls
+cd ..
+cd tmp
+ls
+cd ..
+clear
+ls
+cd usr
+ls
+cd ..
+ls -l
+clear
+ls
+cd home
+ls
+cd vagrant/
+ls
+clear
+pwd
+ls
+cd .ssh
+ls
+cd ..
+ls -l
+ls -la
+cd /etc/group
+cat /etc/group
+ls
+mkdir -p clase4
+ls
+cd clase4/
+cat > archivo1.txt
+ls
+useradd -m -s /bin/bash -c carrillo newuser
+sudo useradd -m -s /bin/bash -c carrillo newuser
+ls
+cd ..
+ls
+cd newuser/
+sudo cd newuser/
+sudo su
+sudo useradd -m -s /bin/bash -c carrillo
+sudo useradd -m -s /bin/bash -c "comentario" carrillo
+ls
+cd carrillo/
+passwd carrillo
+sudo passwd carrillo
+su carrillo/
+su carrillo
+ssh-keygen -t ed25519
+cd ..
+ls ls
+ls -l
+ls -la
+clear
+ls -la
+ls
+cd home
+ls
+cd vagrant/
+ls
+ls -la
+cd .ssh
+ls
+cd ..
+cat %HOME/.ssh/*.pub
+clear
+ls
+cat %HOME/.ssh/*.pub
+cat %/.ssh/*.pub
+cat %.ssh/*.pub
+clear
+ls
+ls -la
+cd .ssh
+ls
+cat id_ed25519.pub
+ls
+cat id_ed25519
+cat authorized_keys 
+cat id_ed25519
+cat id_ed25519.pub
+clear
+cd ..
+ls
+cd repogit/
+git clone 
+git clone git@github.com:CarrilloYago/TP_AySO_211Carrillo_Yago.git
+ls
+cd TP_AySO_211Carrillo_Yago/
+ls
+ls -la
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+ls
+cat datos_url.txt 
+ls
+git add .
+git status
+git commit -m ""
+git config --global user.email carrilloyago@gmail.com
+git config --global user.name CarrilloYago
+git commit -m
+git commit -m "datos url"
+git push
+exit
+cd repogit/
+cd TP_AySO_211Carrillo_Yago/
+ls
+nano README.md 
+cat <<FIN>> README.md Alumno: Carrillo Yago Division: 211 Turno: Tarde
+fin
+FIN
+
+clear
+cat <<FIN>> README.md
+Alumno: Carrillo Yago
+Division: 211
+Turno: Tarde
+FIN
+
+cat README.md 
+git add .
+git status
+git commit -m "Añadiendo datos de usuario al archivos Readme"
+git push
+cat README.md 
+nano README.md 
+ls
+cat README.md 
+git add .
+git push
+git status
+git commit -m "Añadiendo datos al Readme"
+git push
+nano README.md 
+git add .
+git commit -m "Añadiendo datos al Readme"
+git push
+ls
+cd ..
+ls
+mkdir -p material1/{uni1,uni2,uni,3} material2/{uni1,uni2,uni3}
+ls
+cd material
+cd material1
+ls
+rm -r 3
+rm -r uni
+mkdir -p uni3
+ls
+cd ..
+cd material2
+ls
+clear
+cd ..
+cd repogit/
+cd TP_AySO_211Carrillo_Yago/
+ls
+clear
+nano script_dir.sh
+ls
+nano script_dir.sh
+chmod +x script_dir.sh 
+ls
+./script_dir.sh 
+ls
+cd material
+cd material1
+ls
+cd ..
+cd material2
+ls
+clear
+cd ..
+git add.
+git add .
+git status
+git commit -m "Añadiendo Script"
+git push
+history -a
